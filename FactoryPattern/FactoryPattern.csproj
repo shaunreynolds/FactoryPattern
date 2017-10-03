@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractCreator.cs" />
+    <Compile Include="AbstractPizzaStore.cs" />
+    <Compile Include="AbstractProduct.cs" />
+    <Compile Include="AbstractPizza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
