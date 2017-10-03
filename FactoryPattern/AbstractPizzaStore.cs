@@ -8,6 +8,18 @@ namespace FactoryPattern
 {
     abstract class AbstractPizzaStore
     {
-        abstract AbstractPizza createPizza(string item);
+        public abstract AbstractPizza createPizza(string type);
+
+        public AbstractPizza orderPizza(string type)
+        {
+            AbstractPizza pizza = createPizza(type);
+
+            pizza.prepare();
+            pizza.bake();
+            pizza.cut();
+            pizza.box();
+
+            return pizza;
+        }
     }
 }

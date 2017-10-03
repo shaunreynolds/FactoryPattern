@@ -46,6 +46,8 @@
     <Compile Include="AbstractPizzaStore.cs" />
     <Compile Include="AbstractProduct.cs" />
     <Compile Include="AbstractPizza.cs" />
+    <Compile Include="ChicagoPizzaStore.cs" />
+    <Compile Include="NYPizzaStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

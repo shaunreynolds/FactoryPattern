@@ -40,5 +40,13 @@ namespace FactoryPattern
         {
             Console.Out.WriteLine("Boxing pizza of type: " + type);
         }
+
+        public void create()
+        {
+            prepare();
+            bake();
+            cut();
+            box();
+        }
     }
 }
